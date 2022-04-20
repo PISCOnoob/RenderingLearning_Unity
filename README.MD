@@ -8,9 +8,9 @@ unity version:2020.3 Lts
 This project is divided into many scenes, each of which contains one or serveral rendering effects.
 
 Catalog:
-1. 
-2. 
-3.
-4. 
-5.
+1.	2D_RotateMatrix		Bad printing effect/Color scattering		GrayScale		LerpBlendTex
+2.	TimeAnimation(same shader for different uv)		UV Layout /Mesh Topology		
+3.	Planar Mapping		Triplanar Mapping		ScreenSpace Coordiantes(unsolved)
+4. 	Lambert + hatching shading
+5.	Detailed texture/ Splatting texture
 
