@@ -13,4 +13,5 @@ Catalog:
 3.	Planar Mapping		Triplanar Mapping		ScreenSpace Coordiantes(unsolved)
 4. 	Lambert + hatching shading
 5.	Detailed texture/ Splatting texture
+6.  FlowMap
 
