@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ColorLinearInterpolation
+  m_Shader: {fileID: 4800000, guid: 4425743e8854e914199848ffb35d2a29, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Tex0:
+        m_Texture: {fileID: 2800000, guid: 77e87b75f65c4974aaeef960116673f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex1:
+        m_Texture: {fileID: 2800000, guid: 9a93dd93456424544bf5a902e1dd1a37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WeightTex:
+        m_Texture: {fileID: 2800000, guid: b33ff419cb106994394182787cf9ebb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Blend: 1
+    m_Colors:
+    - _FirstCol: {r: 0.9622642, g: 0.45995012, b: 0.45995012, a: 1}
+    - _SecondCol: {r: 0.12732878, g: 0.35325536, b: 0.5471698, a: 1}
+  m_BuildTextureStacks: []
