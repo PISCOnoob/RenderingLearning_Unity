@@ -15,11 +15,11 @@ C:/Unity_project/RenderingLearning
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5841
+8154
 Successfully changed project path to: C:/Unity_project/RenderingLearning
 C:/Unity_project/RenderingLearning
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 25.01 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 28.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1c1 (b9cd9c36b8f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001831 seconds.
+Registered in 0.002367 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.458 seconds
+- Completed reload, in  0.555 seconds
 Domain Reload Profiling:
-	ReloadAssembly (458ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (342ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (128ms)
+			SetupLoadedEditorAssemblies (141ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
+				RefreshPlugins (27ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002950 seconds.
+Registered in 0.003010 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  1.120 seconds
 Domain Reload Profiling:
-	ReloadAssembly (783ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (230ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.7 MB.
-System memory in use after: 71.8 MB.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 2.200100 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.978600 ms  DeleteObjects: 0.048700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 2.989300 ms (FindLiveObjects: 0.180600 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.681100 ms  DeleteObjects: 0.071100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,144 +131,114 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scene_4
-  artifactKey: Guid(c229d43b571fd8944937467a30584087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_4 using Guid(c229d43b571fd8944937467a30584087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec611a7de5aa4a705ebc8a410d940cd') in 0.004646 seconds 
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818a2039a4b73810393a2a14d2623df3') in 0.037228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.810907 seconds.
-  path: Assets/Scene_5
-  artifactKey: Guid(22314038c1f0776428d56453b60999c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5 using Guid(22314038c1f0776428d56453b60999c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d270f244338cb523edffe722b6086c7') in 0.002442 seconds 
+  Time since last request: 54.426860 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59262826f88386bf9798b054cffd5b19') in 0.002558 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6733.180035 seconds.
-  path: Assets/Scene_5/New Scene.unity
-  artifactKey: Guid(9562f72750f13384f8c5553e04774718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/New Scene.unity using Guid(9562f72750f13384f8c5553e04774718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa3991647c08b48665d662716d872f5') in 0.110091 seconds 
+  Time since last request: 104.650223 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6061a9339ecbef20a4a9331d988a39d') in 0.002317 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.217717 seconds.
-  path: Assets/Scene_5/Color Linear Interpolation.shader
-  artifactKey: Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/Color Linear Interpolation.shader using Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da5c08e10ea22af2c2797ef7fa3c900') in 0.030396 seconds 
+  Time since last request: 862.475991 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b974d97a1b1030f4d0433bf831ebce1') in 0.002625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 533.095142 seconds.
-  path: Assets/Scene_5/Color Linear Interpolation.shader
-  artifactKey: Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/Color Linear Interpolation.shader using Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70571c890e4d7fdd7c9d5fa955efedee') in 0.002765 seconds 
+  Time since last request: 216.865963 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa05f95ff1bbf0603f082ef60ae0fe42') in 0.002308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2685.781735 seconds.
-  path: Assets/Scene_5/Color Linear Interpolation.shader
-  artifactKey: Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/Color Linear Interpolation.shader using Guid(4425743e8854e914199848ffb35d2a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73557850b602c7589e8b9ba6ee95ca92') in 0.003250 seconds 
+  Time since last request: 134.431032 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfed4e5156c6176d94434b583c8190a') in 0.002986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.018868 seconds.
-  path: Assets/Scene_5/Color Linear Interpolation 1.shader
-  artifactKey: Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/Color Linear Interpolation 1.shader using Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6afc56142b89a54e2bbb8cdad3fa4a') in 0.006312 seconds 
+  Time since last request: 97.282540 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aa7179644df8e662e3fa37a5fe8903') in 0.002374 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.321987 seconds.
-  path: Assets/Scene_5/SplattingTexture.shader
-  artifactKey: Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/SplattingTexture.shader using Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c463ede57af8a67eec96a5fbf524255') in 0.002998 seconds 
+  Time since last request: 49.088240 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f16a7134895d4724249ae28f18ba61') in 0.002284 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 682.652887 seconds.
-  path: Assets/Scene_5/grass.jpg
-  artifactKey: Guid(77e87b75f65c4974aaeef960116673f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/grass.jpg using Guid(77e87b75f65c4974aaeef960116673f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb791170264ee8da783a5fbbc835216') in 0.111260 seconds 
+  Time since last request: 11434.712949 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb2a74ee085b0b9de726e5ded33c30a') in 0.006471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.341033 seconds.
-  path: Assets/Scene_5/rock.jpg
-  artifactKey: Guid(9a93dd93456424544bf5a902e1dd1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/rock.jpg using Guid(9a93dd93456424544bf5a902e1dd1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7636b26291fede132c1ca78ad71daf81') in 0.011815 seconds 
+  Time since last request: 71.206345 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3dd990390574e24f30eb3d0ff70e26') in 0.003543 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.519780 seconds.
-  path: Assets/Scene_5/dirt.jpg
-  artifactKey: Guid(d6fa6d742c7db9f498e388c5dd30ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/dirt.jpg using Guid(d6fa6d742c7db9f498e388c5dd30ef9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2f6e26e31b00841ff7c4adc97ab846') in 0.051703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Scene_5/snow.jpg
-  artifactKey: Guid(4aa108363a4268f46a8aadeda1991bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/snow.jpg using Guid(4aa108363a4268f46a8aadeda1991bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99940e8595b6015b2c088452558d2af1') in 0.011538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Scene_5/sand.jpg
-  artifactKey: Guid(1a47823dc335273439089d69ada6282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/sand.jpg using Guid(1a47823dc335273439089d69ada6282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cc8f8dc424365b5d83b6fbd7b5d991') in 0.056619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 289.360885 seconds.
-  path: Assets/Scene_5/Terrain.obj
-  artifactKey: Guid(b659b77fedd98ce45a4a741320a665c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/Terrain.obj using Guid(b659b77fedd98ce45a4a741320a665c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a988731ba672b3584dc9fb5b9b7ad726') in 0.239435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 392.782206 seconds.
-  path: Assets/Scene_5/SplattingTexture.shader
-  artifactKey: Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/SplattingTexture.shader using Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1ed236ad7f8cc12fd73145e347a1d3') in 0.003173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2902.206717 seconds.
-  path: Assets/Scene_5/TerrainMask.psd
-  artifactKey: Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/TerrainMask.psd using Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60531c89f7f1807babbde2abc22b396a') in 0.038557 seconds 
+  Time since last request: 4483.554878 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30b6ae043664b9f5f825ecdfb77abd0') in 0.002654 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003936 seconds.
+Registered in 0.002940 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.839 seconds
 Domain Reload Profiling:
-	ReloadAssembly (889ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (642ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (223ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (142ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (143ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.3 MB.
-System memory in use after: 74.4 MB.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.865500 ms (FindLiveObjects: 0.126200 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.645000 ms  DeleteObjects: 0.047200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 2.815300 ms (FindLiveObjects: 0.122600 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.554800 ms  DeleteObjects: 0.091000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -282,38 +252,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1087.295547 seconds.
-  path: Assets/Scene_5/TerrainMask.psd
-  artifactKey: Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/TerrainMask.psd using Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2cfb60e6ccd93328874d8e628f25c') in 0.053532 seconds 
+  Time since last request: 28.248536 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa103529088af3025c21375319acde91') in 0.012084 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.397664 seconds.
-  path: Assets/Scene_5/TerrainMask.psd
-  artifactKey: Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/TerrainMask.psd using Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d5cadabca4170af42d11ab589fc7ff') in 0.059903 seconds 
+  Time since last request: 157.182384 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e20eaaee575f6266d3b05d7963ff62') in 0.002989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1166.825591 seconds.
-  path: Assets/Scene_5/TerrainMask.psd
-  artifactKey: Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/TerrainMask.psd using Guid(681b4df2bb2f4054386acef11f245663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5046489edd6a9d69003c1d0b53d3fea4') in 0.014231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 611.421637 seconds.
-  path: Assets/Scene_5/002 - Detail Texture.shader
-  artifactKey: Guid(50cbdac8e4ed0c542823cb6c0ba5cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/002 - Detail Texture.shader using Guid(50cbdac8e4ed0c542823cb6c0ba5cc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746cc9d1dcc44b18fc835dea156d4c8') in 0.004547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.885118 seconds.
-  path: Assets/Scene_5/SplattingTexture.shader
-  artifactKey: Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_5/SplattingTexture.shader using Guid(b49b554bf91cf9c47844042e89dc06b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdd5cc9b5b46c102c8b4649c33ec45b') in 0.002811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2486.469357 seconds.
-  path: Assets/Scene_4/New Scene.unity
-  artifactKey: Guid(bf1c254a697f97347ae74f7eb30958ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_4/New Scene.unity using Guid(bf1c254a697f97347ae74f7eb30958ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8267ddfdf038c51d7f035b13ba33a6') in 0.004621 seconds 
+  Time since last request: 1314.745514 seconds.
+  path: Assets/Scene_4/OgreMagi/Dota2.shader
+  artifactKey: Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_4/OgreMagi/Dota2.shader using Guid(fafff2562dfacfc4bb178a34d7716f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15394e331604526b43538461aaba2c9c') in 0.002587 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
