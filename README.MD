@@ -11,7 +11,9 @@ Catalog:
 1.	2D_RotateMatrix		Bad printing effect/Color scattering		GrayScale		LerpBlendTex
 2.	TimeAnimation(same shader for different uv)		UV Layout /Mesh Topology		
 3.	Planar Mapping		Triplanar Mapping		ScreenSpace Coordiantes(unsolved)
-4. 	Lambert + hatching shading
-5.	Detailed texture/ Splatting texture
-6.  FlowMap
+4. 	Lambert		Blinphong		NoramlMap		Fresnel -->		Dota2 hero shader(Ogre Magi)
+5.	Linear interpolation		Detailed texture/ Splatting texture
+6.  Water flowMap 
+7. 	Hatching shading		Checkerboard pattern
+8.	Polygon clipping using dot product
 

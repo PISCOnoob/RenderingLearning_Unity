@@ -20,7 +20,7 @@ Shader "MyShader/SimpleShader"
 
             struct a2v
             {
-                float4 pos : POSITION;
+                float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
 
@@ -37,7 +37,7 @@ Shader "MyShader/SimpleShader"
             v2f vert (a2v v)
             {
                 v2f o;
-                o.pos = UnityObjectToClipPos(v.pos);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
             }
