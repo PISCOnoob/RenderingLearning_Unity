@@ -56,23 +56,46 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scene_8\ClippingPlane.cs" />
     <Compile Include="Assets\Scene_8\PolygonController.cs" />
+    <Compile Include="Assets\Scene_10\Postprocessing.cs" />
+    <Compile Include="Assets\Scene_10\Postprocessing_2.cs" />
+    <Compile Include="Assets\Scene_10\BlurEffect\Postprocessing_3.cs" />
+    <Compile Include="Assets\Scene_23\Postprocessing.cs" />
+    <Compile Include="Assets\Scene_10\BlurEffect\PP_GaussianBlur.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Scene_9\VertexManipulation.shader" />
     <None Include="Assets\Scene_1\GrayScale.shader" />
     <None Include="Assets\Scene_1\LerpBlendTex.shader" />
+    <None Include="Assets\Scene_11\Shaders\Cells.shader" />
+    <None Include="Assets\Scene_8\Stencil_ReadShader.shader" />
+    <None Include="Assets\Scene_11\Shaders\WhiteNoise.shader" />
+    <None Include="Assets\Scene_8\ClippingPlane.shader" />
     <None Include="Assets\Scene_3\PlanarMapping.shader" />
     <None Include="Assets\Scene_1\RotateMatrix_2D.shader" />
     <None Include="Assets\Scene_1\ColorScattering.shader" />
     <None Include="Assets\Scene_5\Color Linear Interpolation.shader" />
     <None Include="Assets\Scene_5\SplattingTexture.shader" />
     <None Include="Assets\Scene_3\ScreenSpaceCoord.shader" />
+    <None Include="Assets\Scene_10\PP_DepthNormalTexture.shader" />
+    <None Include="Assets\Scene_10\SimpleShader.shader" />
+    <None Include="Assets\UniversalResources\Shader\mylib_WhiteNoise.cginc" />
     <None Include="Assets\Scene_4\OgreMagi\Dota2.shader" />
     <None Include="Assets\Scene_2\TimeFlow.shader" />
     <None Include="Assets\Scene_7\CheckerboardPattern.shader" />
+    <None Include="Assets\Scene_23\PP_Outlines.shader" />
     <None Include="Assets\Scene_8\PolygonClipping.shader" />
+    <None Include="Assets\Scene_10\PP_DepthTexture.shader" />
+    <None Include="Assets\Scene_23\HullOutlines.shader" />
+    <None Include="Assets\Scene_10\BlurEffect\GaussianBlur.shader" />
     <None Include="Assets\UniversalResources\Shader\SimpleShader.shader" />
     <None Include="Assets\Scene_6\WaterFlowMap.shader" />
+    <None Include="Assets\UniversalResources\Shader\mylib_Test.cginc" />
+    <None Include="Assets\Scene_8\Stencil_WriteShader.shader" />
+    <None Include="Assets\UniversalResources\Shader\HalfLambrt_BlinPhong.shader" />
+    <None Include="Assets\Scene_10\PP_InvertColor.shader" />
+    <None Include="Assets\Scene_10\BlurEffect\Boxblur.shader" />
     <None Include="Assets\Scene_3\TriplanarMapping.shader" />
   </ItemGroup>
   <ItemGroup>

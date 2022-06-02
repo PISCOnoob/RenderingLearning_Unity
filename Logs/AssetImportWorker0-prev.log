@@ -15,11 +15,11 @@ C:/Unity_project/RenderingLearning
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2994
+3340
 Successfully changed project path to: C:/Unity_project/RenderingLearning
 C:/Unity_project/RenderingLearning
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 26.74 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 26.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1c1 (b9cd9c36b8f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/Resources/UnitySubsystems
@@ -30,42 +30,42 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   
     VRAM:     8043 MB
-    Driver:   27.21.14.5751
+    Driver:   30.0.15.1295
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001965 seconds.
+Registered in 0.001800 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  0.460 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (460ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (348ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (127ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (64ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,33 +73,33 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002848 seconds.
+Registered in 0.002824 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (800ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (229ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
+				BeforeProcessingInitializeOnLoad (61ms)
 				ProcessInitializeOnLoadAttributes (148ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (6ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.4 MB.
-System memory in use after: 73.5 MB.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 2.156600 ms (FindLiveObjects: 0.119200 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.946300 ms  DeleteObjects: 0.043700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.151100 ms (FindLiveObjects: 0.122400 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.937400 ms  DeleteObjects: 0.043800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,97 +131,487 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scene_7
-  artifactKey: Guid(6ae5a40796ddfa143bbccaa61ae990c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7 using Guid(6ae5a40796ddfa143bbccaa61ae990c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b2e244c060438394e55c0d8a74ed6') in 0.003986 seconds 
+  path: Assets/Test_Scene/New Scene.unity
+  artifactKey: Guid(e1d2d211a03b52a47b9aae6a2841b906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test_Scene/New Scene.unity using Guid(e1d2d211a03b52a47b9aae6a2841b906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6803ce32af56f7d3608e3e82ed0a69f') in 0.009948 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.942862 seconds.
-  path: Assets/Scene_7/New Scene.unity
-  artifactKey: Guid(d217ce780ffee674288ed8930bd4e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7/New Scene.unity using Guid(d217ce780ffee674288ed8930bd4e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e799c48a35bee26563b677fa37ce0ded') in 0.008977 seconds 
+  Time since last request: 157.266879 seconds.
+  path: Assets/Scene_11
+  artifactKey: Guid(8247f2af9e643424ca84f2ac212e602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11 using Guid(8247f2af9e643424ca84f2ac212e602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff5c1cd1ba21d57ef989244e5a03ee4') in 0.002773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 184.908192 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat1.fbx
-  artifactKey: Guid(ff37324530905b241a4f2f1a6946f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat1.fbx using Guid(ff37324530905b241a4f2f1a6946f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1824d044db0293724f6cf14f976946dd') in 0.133763 seconds 
+  Time since last request: 6.064790 seconds.
+  path: Assets/Scene_11/New Scene.unity
+  artifactKey: Guid(0231527cbf3e49b4989f478464e34b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/New Scene.unity using Guid(0231527cbf3e49b4989f478464e34b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b57655218f54f873ef766fedd364a3a') in 0.002230 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.028954 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Noise.tga
-  artifactKey: Guid(d34728a4f40315948a103a52dae2939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Noise.tga using Guid(d34728a4f40315948a103a52dae2939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192ec6b7c27d174d325109b90421f072') in 0.015622 seconds 
+  Time since last request: 8.467561 seconds.
+  path: Assets/Scene_11/Shaders
+  artifactKey: Guid(90b37210a980663418bc70a6cc168369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders using Guid(90b37210a980663418bc70a6cc168369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd90ef290df37de47e470d3da8e71c9a') in 0.002109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.939232 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_O.tga
-  artifactKey: Guid(eabfa8d88fe328f4b952fb81f530c4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_O.tga using Guid(eabfa8d88fe328f4b952fb81f530c4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30bad5afe6deef69f401276f0e3dc59') in 0.007038 seconds 
+  Time since last request: 7.610600 seconds.
+  path: Assets/Scene_11/Materials
+  artifactKey: Guid(8dca6396729d7704db39317362b1ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Materials using Guid(8dca6396729d7704db39317362b1ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0604420c2d776d93dc9092de9137f4') in 0.002288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.691743 seconds.
-  path: Assets/UniversalResources/Model/MeetMat2/Texture
-  artifactKey: Guid(582dde60a3dd3e24db2daff1812d201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat2/Texture using Guid(582dde60a3dd3e24db2daff1812d201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce820bf5a3855f77c0b04ad7ffa3f465') in 0.002118 seconds 
+  Time since last request: 1562.700635 seconds.
+  path: Assets/UniversalResources/Shader/SimpleShader 1.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalResources/Shader/SimpleShader 1.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc548acdbe5636597d25f14f760155dd') in 0.021939 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.271053 seconds.
-  path: Assets/UniversalResources/Model/Suzanne/Common_Suzanne.obj
-  artifactKey: Guid(8b77110aab20d4d42bfeca6c5486496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/Suzanne/Common_Suzanne.obj using Guid(8b77110aab20d4d42bfeca6c5486496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7042a0996ce2705b1e76c18d357c4c98') in 0.017630 seconds 
+  Time since last request: 14.581758 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf13f9b254d10f617470d7b942b66b44') in 0.003124 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.891940 seconds.
-  path: Assets/UniversalResources/Model/haha.fbx
-  artifactKey: Guid(4063e342ef1da414fb80ab79b79b95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/haha.fbx using Guid(4063e342ef1da414fb80ab79b79b95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68d6cf0e934205ad52c627f19f828bf') in 0.027253 seconds 
+  Time since last request: 28.517772 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53499fceccfed1cb3b8aa47f3881e72b') in 0.002888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.777223 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Dist.tga
-  artifactKey: Guid(810a59719d6eb4c4aa8aed67b3c498d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Dist.tga using Guid(810a59719d6eb4c4aa8aed67b3c498d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29b947deb4f7be21a110263172f7638') in 0.007883 seconds 
+  Time since last request: 710.423828 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13125296920d129d8d752adf82ef40c') in 0.012408 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.809831 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Ghost1.tga
-  artifactKey: Guid(1ffa09dd2472baa449817f99d66386e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Ghost1.tga using Guid(1ffa09dd2472baa449817f99d66386e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1946f781f8a5ecd770c6f7acb4c6c72') in 0.014160 seconds 
+  Time since last request: 52.508126 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69bddf17b1666641b33fe06887b4fe4') in 0.003303 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.898007 seconds.
-  path: Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Ghost2.tga
-  artifactKey: Guid(861ba7e4966a4454190aab0fe897b9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Model/MeetMat1/Common_MeetMat_Ghost2.tga using Guid(861ba7e4966a4454190aab0fe897b9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39188fb63fb63209b29c8f0f8d4f479a') in 0.008366 seconds 
+  Time since last request: 33.645640 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4054725d7d26f45fb0615cd885751ff') in 0.004222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.251515 seconds.
-  path: Assets/Scene_7/CheckerboardPattern.shader
-  artifactKey: Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7/CheckerboardPattern.shader using Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ec11d13f27ce934af885022cfa0837') in 0.004598 seconds 
+  Time since last request: 364.536389 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c59ddf7073eb69b11e5adcda3927e2') in 0.003328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.284570 seconds.
-  path: Assets/Scene_7/CheckerboardPattern.shader
-  artifactKey: Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7/CheckerboardPattern.shader using Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e8e8eac5c463a34e4754f225b9b093') in 0.002406 seconds 
+  Time since last request: 84.579632 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456e892bc27fa7702904ca90faae74ba') in 0.002866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.277954 seconds.
-  path: Assets/Scene_7/CheckerboardPattern 1.shader
-  artifactKey: Guid(8d6934a7867e940449d41e226dab8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7/CheckerboardPattern 1.shader using Guid(8d6934a7867e940449d41e226dab8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44373c28bbdf047f43edc9118a98e774') in 0.004645 seconds 
+  Time since last request: 31.412701 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee3ec9bfdace06b30deb0a6a4ac640') in 0.003142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.742453 seconds.
-  path: Assets/UniversalResources/Shader/CheckerboardPattern 1.shader
-  artifactKey: Guid(8d6934a7867e940449d41e226dab8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalResources/Shader/CheckerboardPattern 1.shader using Guid(8d6934a7867e940449d41e226dab8e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429fb3d8bbb58896019d597498ebbe08') in 0.003223 seconds 
+  Time since last request: 11.014311 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d629b31d50c8b14454e51c0f35f240e') in 0.002812 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13890.001540 seconds.
-  path: Assets/Scene_7/CheckerboardPattern.shader
-  artifactKey: Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene_7/CheckerboardPattern.shader using Guid(0ca89130ffa6a7542b8602ab6c60d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6916e81cb0af21ffb46720913c93b6cf') in 0.002643 seconds 
+  Time since last request: 27.772796 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a69528cd5e3d2569cf6c6c7222a51ce') in 0.003095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.585266 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09af43e6127806b8113f7bf79eab2d') in 0.003059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3914.438918 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8eb75c0dfc2b13fcfb93b829bc3de6') in 0.002856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 515.578145 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acac181d427a3b52c664b58fa945613e') in 0.002836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.955160 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1bd6d9ad84dd92b44b74b76b09182f') in 0.003033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.077815 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b4a1577adfc2e2a851f5b6909306c2') in 0.003554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.056770 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd060321f80a4092dc55308e7d33b3') in 0.005401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.363835 seconds.
+  path: Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc
+  artifactKey: Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc using Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eff8e5886a4b281c6a615b0d1c7377') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 522.879407 seconds.
+  path: Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc
+  artifactKey: Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc using Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8925597ef6c308265316d716d9cc3b1') in 0.003113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 902.649195 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ead3fd67c0a59c2ccb89b060f395442') in 0.003069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.141800 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b42750a173f72a3ca3430fa1142928') in 0.003079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.791861 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec42f8d5557e7eaa0e5449977500b3') in 0.003431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.252886 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6fc953ed7b895109137162c00a535d') in 0.003602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 358.142140 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80989ea3f270811eb1a81fad5e928dd0') in 0.003477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.186976 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e9b3c5cd6d486d868f202158e6ef4c') in 0.003112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.985631 seconds.
+  path: Assets/UniversalResources/Shader/mylib_Test.cginc
+  artifactKey: Guid(7ef4e5faef581bd47a23e160ddcfc6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalResources/Shader/mylib_Test.cginc using Guid(7ef4e5faef581bd47a23e160ddcfc6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b85f6e79f82b58e2000111346de690') in 0.002589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.858876 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0117ffc3e0e80fb5492967af072774') in 0.003528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.419265 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139f89bf9995eea458bc3e03144b1162') in 0.003463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.826214 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406e77d04cdcddd68a326471e42eacd7') in 0.003457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.071667 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a293c9c8a86f29c8df9f146b47115a6') in 0.003052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.084210 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd6c216901b18f876e8bfd156a9bf02') in 0.003093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.901318 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e5cb37fa6553b4d8ef6060892a60ca') in 0.003017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.483315 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5166faa6d289dae4cf7f84c922b09e7') in 0.002881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.964698 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16948794051fd8f688e9f0e0efd55287') in 0.003062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.431481 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bd96677f53218347e76acb41365b4a') in 0.003073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.269043 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e466dcac171c267137e8add7114f88fd') in 0.003552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.341482 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ce59f40452741a6219e9e5584e4979') in 0.002764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.000752 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98576918fab1daedc93a5971b0940fd5') in 0.003065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.283960 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a259b0bb9a5ca1ef33f58a6ecb2950ec') in 0.002861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.127966 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b705189b22839717abb9e54ee5d68') in 0.002974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.463414 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5048a01e180eb4cdb9c3c0d1b212c1f7') in 0.002679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.543810 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a77dbe32ab43a944ee269a80f0eab9') in 0.003286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.140030 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f562947b5b238d66387ab7898798e7') in 0.003175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.269671 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f61c8a32ce002c78090e59f3e405bc0') in 0.003002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.945940 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea333d41eacdb56fad0244bd2b1c5c0e') in 0.003523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.875697 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408e71e192447bc5808fcb0360efef2') in 0.002996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.523040 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d89e4cf8e9ab56b5fdbcce45e4aea53') in 0.003352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.295451 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa37a441bbfe353156093275d042d36e') in 0.003321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.006156 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fdb074ee0d4bdf4ba1156a55f5d385') in 0.003273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.570061 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3de37b0b2cc5fb076038466dec478a') in 0.003240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.997896 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977eb4afdefac4e67be65d838b4cdf0c') in 0.003399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.776379 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b72213c5c1841caf0dc5cd7ad315b1') in 0.003382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.015061 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c73d4d6d620dc111ffc42fb493a4ca9') in 0.002613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.771747 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad57cfe86c577fa63ff086964e6813af') in 0.003800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.139270 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa167043170bef979cc21ea26a5cb24') in 0.003437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.332737 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfa2f1671a2122e35051406c1d4fb37') in 0.003125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1007.074214 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8c26c1f36513ec1d0e0499a3f94c25') in 0.002840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.794757 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise 1.shader
+  artifactKey: Guid(269756728c241a2448d5ac0a9b0d3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise 1.shader using Guid(269756728c241a2448d5ac0a9b0d3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dd2937b55e3f1b1100a8b17339ec77') in 0.002841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.833352 seconds.
+  path: Assets/Scene_11/Shaders/CellsShader.shader
+  artifactKey: Guid(269756728c241a2448d5ac0a9b0d3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/CellsShader.shader using Guid(269756728c241a2448d5ac0a9b0d3773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cd17a07a95a3ecfc49e3dbce76575a') in 0.002778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.714518 seconds.
+  path: Assets/Scene_11/Shaders/mylib_Test.cginc
+  artifactKey: Guid(6029151c7bb7e9d49884a4fc897a5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/mylib_Test.cginc using Guid(6029151c7bb7e9d49884a4fc897a5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c337b3fc7667de156698dc1d9b0ddad4') in 0.002737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.067004 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c7665bcad080079d41a8ad28ff389f') in 0.002596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.869430 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b7aabc18f1aa00a56bdfed31ed756') in 0.003675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.822435 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe45eefe9e7356a2db54e4e8f77ef7a') in 0.002826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.110730 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef880299d8ab2c0f9d7ea7b075842e7f') in 0.002941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.709234 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092b83d7640dc8bd4c81755d087b4c7f') in 0.002801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.191960 seconds.
+  path: Assets/UniversalResources/Shader/mylib_WhiteNoise.cginc
+  artifactKey: Guid(fada796c0aa503341a89204a2ecdaa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalResources/Shader/mylib_WhiteNoise.cginc using Guid(fada796c0aa503341a89204a2ecdaa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74c033eba1a376bac45db2b6903b79') in 0.002570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.710193 seconds.
+  path: Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc
+  artifactKey: Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/mylib_WhiteNoise.cginc using Guid(67528644144ff8a44930c7d7c2ee3ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bbaec0fabb75863644dd2daba47137') in 0.002464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 246.677882 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a3c91b2cf8930f265f98c6e57a6e98') in 0.003879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.505830 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044cd75e8f8e4dd0a8ebc893010d0b2e') in 0.002759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.733189 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3588ba7d741eb78104a785528c855c32') in 0.003345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.691174 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36045767b974d23aaf5aa0d6b17f6e1') in 0.002779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.610433 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2020ab08e7e97ef803f3afe84849c100') in 0.002808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.895415 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise.shader
+  artifactKey: Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise.shader using Guid(317b974319555dc4aa3360b4fdcaba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd67cc529708fae03380ca55fd6645') in 0.003015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.424285 seconds.
+  path: Assets/Scene_11/Shaders/WhiteNoise 1.shader
+  artifactKey: Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/WhiteNoise 1.shader using Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a532bce1c576b041aa38aa255047af16') in 0.002943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.028061 seconds.
+  path: Assets/Scene_11/Shaders/Cells.shader
+  artifactKey: Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/Cells.shader using Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15098ab7bb0d68992df4b971191716d') in 0.002907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.325517 seconds.
+  path: Assets/Scene_11/Shaders/Cells.shader
+  artifactKey: Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene_11/Shaders/Cells.shader using Guid(a00be9cca9a42e94488ae6f72bece16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81521f0f5f9eb4d8f9821ff7fee8df6') in 0.003754 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
