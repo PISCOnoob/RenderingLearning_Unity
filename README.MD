@@ -19,7 +19,7 @@ Catalog:
 9.	Vertex displacement
 10.	Postpocessing basic/ with the Depth Texture/ with Normal Texture
 	Blur Postpocessing Effect(Box and Gauss)
-11.	Value noise/ Perlin Noise/ Layered noise/ Voronoi noise/ Tiling noise
+11.	White noise/	Value noise	/ 	Perlin noise/ 	Layered noise/ 	Voronoi noise/ 	Tiling noise
 12.	Baking shaders into texture
 13. Single step toon light/ Improved toon light/ Halftoon shading
 14.	2D SDF signed distance field basics/ Combination/ Space manipulation/ Shadow
